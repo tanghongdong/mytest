@@ -15,6 +15,7 @@ public class NoticeServiceImpl implements NoticeService {
 	@Autowired
 	private NoticeMapper noticeMapper;
 	public List<Notice> findAll() {
+		System.out.println("noi");
 		return noticeMapper.findAll();
 	}
 
